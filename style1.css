@@ -1,0 +1,145 @@
+*{
+    margin: auto;
+}
+.heading{
+    position: relative;
+    background-color:black;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+.item{
+    display: inline-block;
+    margin: 30px;
+}
+#link{
+    text-decoration: none;
+    color: white;  
+}
+#link:hover{
+    color: red;
+}
+.title{
+    
+    color: white;
+    background-color: red;
+    font-size: 100px;
+    text-align: center;
+    
+}
+#imgs{
+    width:50%;
+    height:40%;
+}
+.titleh2{
+    display: flex;
+}
+#img2{
+    width: 100%;
+    height: 800px;
+}
+.img4{
+    font-family: 'Carattere', cursive;
+    font-size: 100px;
+}
+#img5{
+background-color: grey;
+text-align: center;
+font-size: 100px;
+}
+.button{
+    text-align: center;
+}
+#butn_s{
+    margin: 20px 20px;
+}
+#men{
+    text-align: center;
+    color: black;
+}
+.butn{
+    text-align: center;
+}
+#gly-img{
+    width: 15rem;
+    height: 18rem;
+    margin: 20px 20px;
+}
+#GALLERY{
+    background-color: grey;
+}
+#MENU{
+    background-color: grey;
+}
+#ABOUT{
+    background-color:grey;
+}
+.abo2{
+    text-align: center;
+    color: black;
+    
+}
+.abo3{
+    margin-left: 50px;
+    font-weight: bolder;
+}
+.con1{
+    text-align: center;
+    color: black;
+}
+.loc1{
+    text-align: center;
+    color: red;
+}
+.con2{
+    text-align: center;
+    
+}
+.icon-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+.icon i{
+    color: black;
+    font-size: 2rem;}
+    .loc1{
+        background-color: rgb(222, 189, 135);
+    }
+.icon:hover{
+    background-color: green;
+}
+#CONTACTUS{
+    background-color: grey;
+}
+.map{
+    text-align: center;
+}
+#bn1{
+    background-color: green;
+    border-radius: 20px;
+}
+#GIFTCARD{
+    background-color: grey;
+}
+#footer{
+    background-color: grey;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+html{
+    scroll-behavior: smooth;
+}
